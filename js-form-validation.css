@@ -1,0 +1,10 @@
+p {
+	padding-top: 30px;
+	font-weight: bold;
+}
+@media(min-width: 768px) {
+  .field-label-responsive {
+    padding-top: .5rem;
+    text-align: right;
+  }
+}

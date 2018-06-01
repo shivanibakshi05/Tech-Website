@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Innerve'18</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/bootstrap-4.0.0-dist/js/scrollreveal.min.js"></script>
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+	<div class="container-fluid">
+		<a href="#" class="navbar-brand">Innerve'18</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#about">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#slides">Events</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#highlights">Highlights</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#sponsors">Sponsors</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#team">Team</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#connect">Connect</a>
+				</li>
+				<li>
+					<a href="register.php"><button class="btn btn-outline-secondary">Register Now!</button></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<!--- Particle.js -->
+<div id="particles-js">
+	<script type="text/javascript" src="particles.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</div>
+
+<!--- Welcome Section -->
+<div id="about" class="container-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">About Innerve</h1>
+		</div>
+		<hr>
+		<div class="col-12">
+			<blockquote class="blockquote">
+				<p class="lead">
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+				</p>
+				<div class="blockquote-footer text-center">Team Innerve</div>
+			</blockquote>
+		</div>
+		<div class="col-12">
+			<h3 class="text-center">Some Interesting Facts</h3>
+		</div>
+		<hr>
+	</div>
+</div>
+
+<!--- Three Column Section -->
+<div class="container-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<i class="fa fa-trophy"></i>
+			<h3>IN PRIZE MONEY TO BE WON</h3>
+			<span class="counter">50000</span>
+		</div>	
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<i class="fas fa-bullseye"></i>
+			<h3>PARTICIPANTS</h3>
+			<span class="counter">3000</span>
+		</div>
+		<div class="col-sm-12 col-md-4">
+			<i class="fas fa-briefcase"></i>
+			<h3>EVENTS</h3>
+			<span class="counter">40</span>
+		</div>		
+	</div>
+	<hr class="my-4">
+</div>
+
+<!--- Video Slider -->
+<div id="slides" class="carousel slide" data-ride="carousel">
+	<ul class="carousel-indicators">
+		<li dta-target="#slides" data-slide-to="0" class="active"></li>
+		<li dta-target="#slides" data-slide-to="1"></li>
+		<li dta-target="#slides" data-slide-to="2"></li>
+	</ul>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<div>
+				<video autoplay muted loop id="myVideo">
+					<source src="cheer.mp4" type="video/mp4">
+				</video>
+			</div>
+    		<div class="carousel-caption">
+    			<a href="#" style="color: white;"><h3>DJ Nights</h3></a>
+    		</div>
+		</div>
+		<div class="carousel-item">
+			<div>
+				<video autoplay muted loop id="myVideo">
+						<source src="keyboard.mp4" type="video/mp4">
+				</video>
+			</div>
+      		<div class="carousel-caption">
+      			<a href="#" style="color: white;"><h3>Coding Competitions</h3></a>
+        	</div>
+		</div>
+		<div class="carousel-item">
+			<div>
+				<video autoplay muted loop id="myVideo">
+					<source src="strum.mp4" type="video/mp4">
+				</video>
+			</div>
+        	<div class="carousel-caption">
+          		<a href="#" style="color: white;"><h3>Jam Sessions</h3></a>
+        	</div>
+		</div>
+	</div>
+	<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+ 	</a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    	<span class="sr-only">Next</span>
+  	</a>
+</div>
+
+<!--- Two Column Section -->
+<div id="highlights" class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-lg-12">
+			<h2 class="text-center py-3">Highlights...</h2>
+		</div>
+		<div class="row"> 
+			<div class="column">
+				<img src="image1.jpg" class="img-fluid" style="width: 100%">
+    			<img src="image2.jpg" class="img-fluid" style="width: 100%">
+  			</div>
+  			<div class="column">
+    			<img src="image5.jpg" class="img-fluid" style="width: 100%">
+    			<img src="image6.jpg" class="img-fluid" style="width: 100%">
+  			</div> 
+		</div>
+	</div>
+</div>
+<hr class="my-4">
+
+<!--- Fixed background -->
+<figure id="sponsors">
+	<div class="fixed-wrap">
+		<div id="fixed"></div>
+	</div>
+</figure>
+
+<!--- Emoji Section -->
+<button class="fun" data-toggle="collapse" data-target="#emoji">Click for fun!</button>
+<div id="emoji" class="collapse">
+	<div class="container-fluid padding">
+		<div class="row text-center">
+			<div class="col-sm-6 col-md-3">
+				<img src="img/gif/panda.gif" alt="gif" class="gif">
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<img src="img/gif/poo.gif" alt="gif" class="gif">
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<img src="img/gif/unicorn.gif" alt="gif" class="gif">
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<img src="img/gif/chicken.gif" alt="gif" class="gif">
+			</div>
+		</div>
+	</div>
+</div>
+  
+<!--- Meet the team -->
+<div id="team" class="container-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">Meet The Team</h1>
+		</div>
+		<hr>
+	</div>
+</div>
+
+<!--- Cards -->
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-md-4">
+			<div class="card">
+				<img src="img/team1.png" alt="member1" class="card-img-top">
+				<div class="card-body">
+					<h4 class="card-title">Member1</h4>
+					<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					<a href="#" class="btn btn-outline-secondary">See Profile</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card">
+				<img src="img/team2.png" alt="member2" class="card-img-top">
+				<div class="card-body">
+					<h4 class="card-title">Member2</h4>
+					<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					<a href="#" class="btn btn-outline-secondary">See Profile</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card">
+				<img src="img/team3.png" alt="member3" class="card-img-top">
+				<div class="card-body">
+					<h4 class="card-title">Member3</h4>
+					<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					<a href="#" class="btn btn-outline-secondary">See Profile</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--- Connect -->
+<div id="connect" class="container-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-12">
+			<h2>Connect</h2>
+		</div>
+		<div class="col-12 social padding">
+			<a href="#"><i class="fab fa-facebook"></i></a>
+			<a href="#"><i class="fab fa-twitter"></i></a>
+			<a href="#"><i class="fab fa-google-plus-g"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-youtube"></i></a>
+		</div>
+	</div>
+</div>
+
+<!--- Footer -->
+<footer>
+	<div class="container-fluid padding">
+		<div class="row text-center">
+			<div class="col-md-12">
+				<h3>Innerve'18</h3>
+				<hr class="light">
+				<p>555-555-5555</p>
+				<p>email@mymail.com</p>
+				<br>
+                <h5>STAY INFORMED WITH OUR NEWSLETTER</h5>
+                <form action="" method="post">
+                    <div class="input-prepend">
+                        <input type="text" id="" name="" placeholder="ENTER YOUR EMAIL HERE..">
+                    </div>
+                    <br>
+                    <input type="submit" value="Subscribe" class="btn btn-large btn-outline-secondary" />
+              </form>
+			</div>
+			<div class="col-md-12">
+				<hr class="light-100">
+				<h5>Contact Us</h5>
+				<hr class="light-100">
+				<p>For Registrations, Sponsorship and General Queries, Contact Us with the Details Below</p>
+			</div>	
+			<div class="detail col-md-4">
+				<i class="fa fa-mobile" aria-hidden="true"></i>
+				<h5>Participation</h5>
+				<p>Poorvi Malhotra</p>
+				<p>+91 9899999087</p>
+				<p>Simran Mahbubani</p>
+				<p>+91 8411290907</p>
+				<p>domestic.relations@innerve.com</p>
+			</div>
+			<div class="detail col-md-4">
+				<i class="fa fa-mobile" aria-hidden="true"></i>
+				<h5>Sponsorship &amp; Association</h5>
+				<p>Mahima Saxena</p>
+				<p>+91 8788900121</p>
+				<p>mahimasaxena@mymail.com</p>
+			</div>
+			<div class="detail col-md-4">
+				<i class="fa fa-mobile" aria-hidden="true"></i>
+				<h5>Media deals &amp; General Queries</h5>
+				<p>Shruti Iyer</p>
+				<p>+91 8676734560</p>
+				<p>shruti1997@mymail.com</p>
+			</div>		
+			<div class="col-12">
+				<hr class="light-100">
+				<h5>2018 &copy; innerve.com</h5>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<a href="javascript:" id="return-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+<script>
+		$(document).ready(function(){
+			$(window).scroll(function(){
+				var scroll = $(window).scrollTop();
+				if (scroll > 300) {
+					$(".navbar").css("background" , "#34495e");
+				}  
+				else{
+					$(".navbar").css("background" , "transparent");
+				}	
+			})
+		});
+	</script>
+
+	<script>
+		$(window).scroll(function() {
+			if ($(this).scrollTop() >= 50) { 
+				$('#return-to-top').fadeIn(200);  
+			} else {
+				$('#return-to-top').fadeOut(200); 
+			}
+		});
+		$('#return-to-top').click(function() { 
+			$('body,html').animate({
+				scrollTop : 0                
+			}, 500);
+		});
+	</script>
+
+	<script>
+		window.sr = ScrollReveal();
+		sr.reveal('.navbar',{duration:1000});
+		sr.reveal('.container',{duration:1000});
+		sr.reveal('.container-fluid',{duration:1000});
+		sr.reveal('.row',{duration:1000});
+		sr.reveal('.cols3',{duration:1000});
+	</script>
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="jquery.countup.js"></script>
+<script>
+$('.counter').countUp();
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>
